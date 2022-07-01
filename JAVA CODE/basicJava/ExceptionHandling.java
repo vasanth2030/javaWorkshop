@@ -30,5 +30,11 @@ public class ExceptionHandling {
 		}
 		System.out.println("End of program.");
 	}
+	
+	public static int division(int a, int b) throws ArithmeticException
+	{
+		int div= a/b;
+		return div;
+	}
 
 }
