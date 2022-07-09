@@ -9,7 +9,9 @@ public class LinkedListMain {
 		Node.insertAtEnd(head,40);
 		Node.insertAtEnd(head,50);
 		
+		Node.printLikedList(head);
 		
+		head=Node.deleteNode(head, 3);
 		Node.printLikedList(head);
 	}
 	
